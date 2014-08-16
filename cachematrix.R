@@ -1,4 +1,4 @@
-# These function "makeCacheMatrix" and "cacheSolve" are used in conjunction to be
+# These functions "makeCacheMatrix" and "cacheSolve" are used in conjunction to be
 # able to cache the results of calculating the inverse of a matrix as this can
 # be a time consuming operation
 
@@ -27,7 +27,6 @@ makeCacheMatrix <- function(x = matrix()) {
            setInverse = setInverse,
            getInverse = getInverse)
 }
-
 
 # This function returns the inverse of a matrix created by the above makeCacheMatrix
 # function. If the matrix is unchanged and the inverse has already been calcuated by
